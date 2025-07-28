@@ -1,0 +1,3 @@
+[submodule "momentum_driver"]
+	path = momentum_driver
+	url = https://github.com/scalpelspace/momentum_driver.git
