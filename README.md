@@ -62,13 +62,15 @@ cd ~
 ```bash
 git clone https://github.com/scalpelspace/momentum_sdk.git
 ```
-```bash
-git submodule update --init --recursive
-```
 
 ### How to build Momentum SDK C++ files
 ```bash
 cd ~/momentum_sdk
+
+```bash
+git submodule update --init --recursive
+```
+
 ```
 ```bash
 mkdir build && cd build
