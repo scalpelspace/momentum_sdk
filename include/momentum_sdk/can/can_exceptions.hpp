@@ -1,9 +1,5 @@
 /**
  * \file can_exceptions.hpp
- * \brie#include <string>
-#include <stdexcept>
-
- namespace MomentumSDK{    Exception classes for CAN communication errors
  * \details
  *    Provides a hierarchy of exception classes for handling various
  *    CAN communication errors, including socket errors, bus problems,
