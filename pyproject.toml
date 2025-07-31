@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "momentum-sdk"
 version = "1.0.0"
-description = "Python bindings for ScalpelSpace Momentum SDK"
+description = "Python bindings for Momentum SDK"
 authors = [{name = "ScalpelSpace", email = "info@scalpelspace.com"}]
 license = {text = "MIT"}
 readme = "README.md"
