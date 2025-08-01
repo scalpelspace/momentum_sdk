@@ -7,9 +7,12 @@
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-  <buildtool_depend>pybind11</buildtool_depend>
+  
+  <buil_depend>pybind11_vendor</build_depend>
 
-  <exec_depend>python3</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>pybind11_vendor</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
