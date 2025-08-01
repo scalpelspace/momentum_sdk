@@ -23,7 +23,12 @@ set(MOMENTUM_SDK_SOURCES
     src/protocol/message_parser.cpp
 )
 
-add_library(momentum_sdk STATIC ${MOMENTUM_SDK_SOURCES} ${MOMENTUM_DRIVER_SOURCES})
+add_library(momentum_sdk STATIC 
+    ${MOMENTUM_SDK_SOURCES} 
+    ${MOMENTUM_DRIVER_SOURCES}
+)
+
+set_target_properties(momentum_sdk PROPERTIES POSITION_INDEPENDENT_CODE ON)
 
 target_include_directories(momentum_sdk 
     PUBLIC 
