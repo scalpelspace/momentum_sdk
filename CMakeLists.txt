@@ -42,9 +42,9 @@ target_include_directories(momentum_sdk
 #Python bindings
 pybind11_add_module(momentum_sdk_py MODULE python/momentum_bindings.cpp)
 target_link_libraries(momentum_sdk_py PRIVATE momentum_sdk)
-set_target_properties(momentum_sdk_py EXPORT_PROPERTIES
+set_target_properties(momentum_sdk_py PROPERTIES
     OUTPUT_NAME "momentum_sdk"
-    LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/python/
+    LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/python"
 )
 
 add_executable(momentum_basic examples/momentum_cpp/momentum_basic.cpp)
