@@ -8,7 +8,7 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   
-  <buil_depend>pybind11_vendor</build_depend>
+  <build_depend>pybind11_vendor</build_depend>
 
   <exec_depend>ament_index_python</exec_depend>
   <exec_depend>rclpy</exec_depend>
