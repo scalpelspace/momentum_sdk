@@ -16,3 +16,4 @@ Thumbs.db
 *.user
 *.suo
 *.vcxproj.user
+*.so
