@@ -47,6 +47,10 @@ set_target_properties(momentum_sdk_py PROPERTIES
     LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/python"
 )
 
+install(TARGETS momentum_sdk_py
+    DESTINATION lib/python${Python3_VERSION_MAJOR}.${Python3_VERSION_MINOR}/site-packages
+)
+
 add_executable(momentum_basic examples/momentum_cpp/momentum_basic.cpp)
 target_link_libraries(momentum_basic momentum_sdk)
 
